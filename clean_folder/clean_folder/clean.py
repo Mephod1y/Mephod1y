@@ -81,7 +81,7 @@ def main(folder_for_scan):
     scan(Path(folder_for_scan))
 
 
-if __name__ == '__main__':
+def clean():
     try:
         folder_for_scan = Path(sys.argv[1])
         print(f'Start in folder {folder_for_scan.resolve()}')
